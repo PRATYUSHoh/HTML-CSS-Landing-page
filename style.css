@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+.nav{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.links{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+
+.logo{
+    color: white;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    color:white;
+    padding: 20px;
+}
+.img-holder img {
+    border-radius: 20px;
+    max-width: 250px; /* Prevents image from being too large */
+    height: auto;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column; /* Stacks title and subtext */
+    max-width: 50%; /* Prevents text from being too wide */
+    gap: 20px; /* Adds space between title and subtext */
+}
+.img-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: #1f2937;
+    margin-top: 20px;
+}
+.text{
+    text-align: center;
+}
+.illustration{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    font-weight: 900;
+}
+.button{ 
+    background-color: #3882f6;
+    border: none;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: grab;
+    width: fit-content;
+    border: 2px groove white ;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+.quotetext{
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.footer{
+    display: flex;
+    background-color: #3882f6;
+    justify-content:space-around;
+    padding: 10px 70px;
+    color: white;
+    max-width: fit-content;
+    border-radius: 10px;
+    align-items: center;
+    gap: 300px;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+}
+.footer-holder{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 14px;
+    margin-top: 5px;/* Add spacing between heading and subtext */
+}
+.last{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
